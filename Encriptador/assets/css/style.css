@@ -1,0 +1,84 @@
+main {
+    height: 562px;
+}
+
+.caja2 {
+    display: flex;
+    width: 100%;
+    height: auto;
+    right: 2;
+}
+
+.caja4 {
+    position: relative;
+    margin-left: 55%;
+    display: flex;
+    flex-direction: column;
+}
+
+.caja5 {
+    position: relative;
+    left: 300px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ImagenDerecha {
+    height: 300px;
+    width: 260px;
+}
+
+.AbajoImagenDerecha {
+    height: 160px;
+    width: 250px;
+}
+
+.ingrese {
+    width: 1000px;
+    height: 400px;
+    border: none;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.caja3 {
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.caja3 img {
+    width: 300px;
+    height: 80px;
+}
+
+.BotonCopiar {
+    display: none;
+}
+
+.CajaCopiar {
+    position: relative;
+    border: 1px solid grey;
+    height: 550px;
+    width: 400px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#textoCopiado {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#copiarBtn {
+    margin-top: 10px;
+    font-size: 20px;
+}
